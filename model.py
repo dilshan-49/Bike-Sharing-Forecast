@@ -27,7 +27,7 @@ class LSTMForecaster(nn.Module):
     
 
 class CNN_LSTMForecaster(nn.Module):
-    def __init__(self, num_features, hidden_size, num_layers, output_size, cnn_filters=32, kernel_size=3):
+    def __init__(self, num_features, hidden_size, num_layers, output_size, cnn_filters=32, kernel_size=5):
         super(CNN_LSTMForecaster, self).__init__()
         
         self.num_features = num_features
