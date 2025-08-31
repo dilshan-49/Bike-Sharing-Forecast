@@ -1,13 +1,13 @@
 dataset:
   lookback_window: 24
-  forecast_horizon: 3
+  forecast_horizon: 1
   shift: 1
 
 data:
   feature_columns:
     - workingday
-    - temp
-    - hum
+  #  - temp
+  #  - hum
     - day_sin
     - day_cos
     - week_sin
@@ -20,5 +20,5 @@ data:
 
 model:
   batch_size: 64
-  num_features: 9
+  num_features: 7
   num_targets: 2
