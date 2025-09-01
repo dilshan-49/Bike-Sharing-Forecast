@@ -1,7 +1,8 @@
 dataset:
-  lookback_window: 24
-  forecast_horizon: 1
+  lookback_window: 168
+  forecast_horizon: 24
   shift: 1
+  batch_size: 32
 
 data:
   feature_columns:
@@ -19,6 +20,5 @@ data:
     - registered_s
 
 model:
-  batch_size: 64
   num_features: 7
   num_targets: 2
