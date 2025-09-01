@@ -36,8 +36,7 @@ The project is organized into a series of Jupyter notebooks and a core Python sc
 The `process_data.ipynb` notebook prepares the raw dataset for the deep learning model.
 
 * **Handling Categorical Features:** Features like `season`, `workingday`, and `weathersit` are converted using **one-hot encoding** to avoid introducing an artificial ordinal relationship.
-* **Handling Skewness:** Highly skewed columns, including the `casual` and `registered` user counts, are **log-transformed** to stabilize variance and improve model convergence.
-* **Scaling:** All numerical features and the log-transformed targets are scaled using `MinMaxScaler` to a consistent range of `[0, 1]`, which is essential for deep learning models.
+* **Scaling:** All numerical features and the targets are scaled using `MinMaxScaler` to a consistent range of `[0, 1]`, which is essential for deep learning models.
 * **Temporal Features:** To capture daily and weekly seasonality, new features were engineered using sine and cosine transformations of the hour and weekday. For example:  
     * $Daily_{sin} = sin(2 \pi \times \frac{hour}{24})$
     * $Weekly_{cos} = cos(2 \pi \times \frac{day\_of\_week}{7})$
