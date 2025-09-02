@@ -112,11 +112,10 @@ Bike-Sharing-Forecast/
 │   ├── recursive forecasting.png
 │   ├── full forecast.png
 │   └── model performance plots
-├── Notebooks/
-│   ├── process_data.ipynb      # Data preprocessing and feature engineering
-│   ├── model_training.ipynb    # Model training pipeline
-│   ├── model_testing.ipynb     # Model evaluation and testing
-│   └── recursive_forecast.ipynb # Multi-step recursive forecasting
+├── process_data.ipynb      # Data preprocessing and feature engineering
+├── model_training.ipynb    # Model training pipeline
+├── model_testing.ipynb     # Model evaluation and testing
+└── recursive_forecast.ipynb # Multi-step recursive forecasting
 ```
 
 ### Core Components
