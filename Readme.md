@@ -117,7 +117,6 @@ Bike-Sharing-Forecast/
 │   ├── model_training.ipynb    # Model training pipeline
 │   ├── model_testing.ipynb     # Model evaluation and testing
 │   └── recursive_forecast.ipynb # Multi-step recursive forecasting
-└── 7 param CNN-LSTM.png        # Model architecture diagram
 ```
 
 ### Core Components
